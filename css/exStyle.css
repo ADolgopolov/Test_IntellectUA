@@ -1,0 +1,54 @@
+BODY{
+	text-align: center;
+}
+#topheader{
+	margin-top: -20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.barText{
+	font-size: 150%;
+}
+.statusbarText{
+	color: rgb(27,14,14);
+	font-size: 100%;
+	font-weight: bold;
+}
+.askWord{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #000;
+	background-color: #ffb;
+	background: linear-gradient(to top, #ff7, #fff);
+	font-family: Georgia; 
+	font-size: 200%;
+}
+.printWord{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #000;/*rgb(224, 0, 224);*/
+	background-color: rgb(50, 255, 50);
+	background: linear-gradient(to top, rgb(50, 255, 50), #fff);
+	font-family: Arial; 
+	font-size: 200%;
+}
+.btnChar{
+	margin: 4px;
+	padding: 10px;
+	/*width: 100px;*/
+	color: #000;
+	background-color: #ffb;
+	background: linear-gradient(to top, #B0B0FF, #fff);
+	font-family: Arial; 
+	font-size: 150%;
+}
+.compactMargin{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+.brd{
+    border: 1px solid black; 
+    padding: 2px;  
+}

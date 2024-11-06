@@ -1,0 +1,70 @@
+BODY{
+	text-align: center;
+}
+#topheader{
+	margin-top: -20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#modalDialog{
+	color: #333366;
+	text-align: center;
+}
+/*#question{
+	background-image: url('../images/phone1.svg');
+	background-repeat:no-repeat;
+    background-position: 5px 50%;
+}*/
+.askWord{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #000;
+	background-color: #ffb;
+	background: linear-gradient(to top, #ff7, #fff);
+	font-family: Georgia; 
+	font-size: 300%;
+	text-align: center;
+}
+
+.anseWordDefoult{
+	margin-top: 5px;
+	color: #000;
+	background-color: #ffe;
+	background: linear-gradient(to top, #B0B0FF, #fff);
+	font-family: Arial; 
+	font-size: 250%;
+}
+.anseWordWrong{
+	margin-top: 5px;
+	color: #2e1f07;
+	background-color: #FF0000;
+	background: linear-gradient(to top, #f50000, #ebc6c6);
+	font-family: Arial; 
+	font-size: 250%;
+}
+.anseWordRight{
+	margin-top: 5px;
+	color: #330066;
+	background-color: #E0FFE0;
+	background: linear-gradient(to top, #00f500, #c6ebc6);
+	font-family: Arial; 
+	font-size: 250%;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+ul {
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+	padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.compactMargin{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+.brd{
+    border: 1px solid black; 
+    padding: 2px;  
+}

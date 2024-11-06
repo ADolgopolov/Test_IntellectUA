@@ -1,0 +1,26 @@
+(Month, seasons.)
+winter
+summer
+spring
+autumn
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+(9)
+cook
+learn
+talk
+border
+home
+doorbell
+ring
+listen

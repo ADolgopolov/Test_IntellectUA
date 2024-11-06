@@ -1,0 +1,46 @@
+BODY{
+	text-align: center;
+}
+#topheader{
+	margin-top: -20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.askWord{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #000;
+	background-color: #ffb;
+	background: linear-gradient(to top, #ff7, #fff);
+	font-size: 300%;
+}
+.printWord{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #000;
+	background-color: rgb(50, 255, 50);
+	background: linear-gradient(to top, rgb(50, 255, 50), #fff);
+	font-family: Arial; 
+	font-size: 300%;
+}
+.btnChar{
+	margin: 4px;
+	padding: 10px 0px 10px;
+	width: 100px;
+	color: #000;
+	background-color: #ffb;
+	background: linear-gradient(to top, #B0B0FF, #fff);
+	font-family: Arial; 
+	font-size: 300%;
+}
+.compactMargin{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+.brd{
+    border: 1px solid black; 
+    padding: 2px;  
+}

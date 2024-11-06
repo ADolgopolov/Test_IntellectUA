@@ -1,0 +1,35 @@
+BODY{
+	background-image: url("../images/MathBg.png");
+	background-repeat: repeat;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+#topHeader{
+	margin-top: -20px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+.vertDist{ 
+		margin-top: 5px;
+	}
+
+
+.compactMargin{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+.brd{
+    border: 1px solid black; 
+    padding: 2px;  
+    text-align: center;
+    margin-bottom: 1px;
+    background-color: #dff0d8;
+}
+
+.bigText{ /* for 10+10= */
+	font-size: 350%
+}

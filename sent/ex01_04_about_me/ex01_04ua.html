@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="uk-ua">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Тема "Про себе" - Exercise 1.4</title>
+	  <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="../../css/main.css">
+	  <link rel="stylesheet" type="text/css" href="../../css/exStyle.css">
+	  <!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="../../index.html" class="navbar-brand">IntellectUA</a>
+  </div>
+  <div class="collapse navbar-collapse" id="main-menu" >
+      <!-- Список ссылок, расположенных слева -->
+    <ul class="nav navbar-nav">
+      <!--Элемент с классом active отображает ссылку подсвеченной -->
+      <li><a href="../../index.html">Головна</a></li>
+      <li class="active"><a href="../../tutorialist.html#exercises">Навчальні матеріали<span class="sr-only">(current)</span></a></li>
+    </ul>
+      <!-- Список ссылок, расположенный справа -->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="mailto:andriy.dolgopolov@gmail.com">Зворотній зв'язок</a></li>
+    </ul>
+  </div>
+</nav>
+<div class = "container-fluid">
+	<div class="row">
+		<div id = "topheader" class="col-xs-12 barText darkLine">
+			Склади речення:
+		</div>
+	</div>
+</div>
+	<div class="container-fluid">
+		<div class="row">
+				<audio id="media"></audio>
+				<button id = "question" class="col-xs-10 col-xs-offset-1 askWord" onclick="gen.sound()">&nbsp;</button>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+				<div id = "printer" class="col-xs-10 col-xs-offset-1 printWord">&nbsp;</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div  id = "btnBlock"></div>
+	</div>
+	<br><br><br><br><br>
+	<footer class="footer navbar-fixed-bottom">
+
+		<div id = "statusbar" class = "container-fluid darkLine barText">&nbsp;</div>
+		<div id="markRuler" class = "container-fluid darkLine" style="display: none">
+			<div class="row" style="margin-left: 0px; margin-right: 0px">
+				<div class="col-xs-1 brd">1</div>
+				<div class="col-xs-1 brd">2</div>
+				<div class="col-xs-1 brd">3</div>
+				<div class="col-xs-1 brd">4</div>
+				<div class="col-xs-1 brd">5</div>
+				<div class="col-xs-1 brd">6</div>
+				<div class="col-xs-1 brd">7</div>
+				<div class="col-xs-1 brd">8</div>
+				<div class="col-xs-1 brd">9</div>
+				<div class="col-xs-1 brd">10</div>
+				<div class="col-xs-1 brd">11</div>
+				<div class="col-xs-1 brd">12</div>
+			</div>
+		</div>
+		<div class="container-fluid darkLine">
+			<div class="progress compactMargin" style="background-color: #333">
+				<div id = "masteryBarSuccess" class="progress-bar progress-bar-success statusbarText" style="width:33%"></div>
+				<div id = "masteryBarDanger" class="progress-bar progress-bar-danger statusbarText" style="width:33%"></div>
+				<div id = "progressBar" class="progress-bar progress-bar-info statusbarText" style="width:34%"></div>
+	  		</div>
+  		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src = "../words/wex01_04_about_me.js?v=103"></script>  
+    <script type="text/javascript"> var sdn_store = "../mp3_01_04/";</script>
+    <script type="text/javascript" src = "../js/gramUA.js"></script>
+    <script type="text/javascript"> str_Words_Amount = "Кількість речень: ";
+									str_WordsAmount = "Всього речень: ";
+									window.sentencesByOrder = true;
+								</script>
+    <script type="text/javascript" src = "../js/sentex.js?v=103"></script>
+	
+</body>
+</html>
